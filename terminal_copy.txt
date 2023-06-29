@@ -1,0 +1,21 @@
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/OneDrive/デスクトップ/memo, git/kadai_004/git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> echo "Hallo, world!" >> hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git add .
+No commits yet
+
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git commit -m "hello_world.txtを追加"
+[master (root-commit) 7c5e149] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> echo "こんにちは、世界！" >> hello_world.txt    
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git add .
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git commit -m "日本語訳を追記"
+[master 1f5dd92] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\User\OneDrive\デスクトップ\memo, git\kadai_004\git_challenge> git log --oneline
+1f5dd92 (HEAD -> master) 日本語訳を追記
+7c5e149 hello_world.txtを追加
